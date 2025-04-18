@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .img-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+
+        }
+        .item{
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            margin: 20px;
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+        }
+        .item:hover {
+            border-color: #ff6b6b; 
+            transform: scale(1.02); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+        
+
+        
+}
+    </style>
 </head>
 <body>
     <h1>Rebased Login Page</h1>
     <img src="logo.jpg" alt="esoft">
+    <main class="main">
+        <div class="img-container" >
+            <img class="item" src="img/4.jpg"  alt="">
+            <img class="item" src="img/5.jpg" alt="">
+            <img class="item" src="img/6.jpg" alt="">
+            <img class="item" src="img/7.jpg" alt="">
+            <img class="item" src="img/8.jpg" alt="">
+            <img class="item" src="img/9.jpg" alt="">
+            <img class="item" src="img/10.jpg" alt="">
+            <img class="item" src="img/11.jpg" alt="">
+            <img class="item" src="img/12.jpg" alt="">
+        </div>
+    </main>
 </body>
 </html>
 
